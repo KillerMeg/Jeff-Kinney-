@@ -1,0 +1,56 @@
+body{
+   margin:0; 
+   padding-top:800px;
+   text-align:center;
+}
+#welcome{
+    position:absolute;
+    bottom:0;
+    background:linear-gradient(#c1ff00 0%,#00ffc9 100% );
+    display:table;
+    width:100%;
+    height:100%;
+}
+#bio{
+    background:linear-gradient(#c1ff00 0%,#00ffc9 100% );
+}
+#images{
+    background:linear-gradient(#c1ff00 0%,#00ffc9 100% );
+}
+#books{
+    background:linear-gradient(#c1ff00 0%,#00ffc9 100% );
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.line{
+    height:7px;
+    background-color:crimson;
+    width:70px;
+}
+.menu{
+    position:fixed;
+    top:0px;
+    z-index:10;
+    background-color:white;
+    width:100%;
+    margin-top:0px;
+}
+.links{
+    display:inline;
+    padding-top:5px;
+    padding-left:25px;
+    padding-right:33px;
+    padding-bottom:5px;
+    font-family:'Times New Roman';
+    font-size:33px;
+}
+.links:hover{
+    font-size:44px;
+    text-decoration:underline;
+}
+.contact1{
+ font-size:37px;
+ display:inline;
+}
